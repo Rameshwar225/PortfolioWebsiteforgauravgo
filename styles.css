@@ -1,0 +1,555 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+#first-page {
+    background-image: url('IMG/Background.jpg');
+    /* Replace 'your-image.jpg' with your background image URL */
+    background-size: cover;
+    /* background-blur: 10px; */
+    
+    /* Apply blur effect to the background image */
+    color: #fff;
+    height: 500px;
+    /* Text color - white */
+}
+
+/* Dark theme */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8fc6f9;
+    /* Dark background */
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    /* White text */
+    font-size: 20px;
+    /* Increase the font size */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #0074e4;
+    /* Blue */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 22px;
+    /* Increase the font size */
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 22px;
+    /* Increase the font size */
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #0074e4;
+    /* Blue */
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    /* Increase the font size */
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+
+
+/* First Page Styles */
+#first-page {
+    background-color: #8fc6f9;
+    /* Blue background color */
+    color: #fff;
+    /* Text color - white */
+    padding: 60px 0 ;
+    }
+
+.first-page-content {
+    display: flex;
+    flex-wrap: wrap; 
+    
+    gap: 35px;
+    padding-top: 50px;
+    margin-left: -23%;
+    margin-top: 5%;
+}
+
+.profile-img {
+    max-width: 200px;
+    
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.skills,
+.tools {
+    text-align: left;
+}
+
+.skills h2,
+.tools h2 {
+    font-size: 28px;
+    /* Increase the font size */
+    color: #fff;
+}
+
+.skills ul,
+.tools ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li,
+.tools li {
+    font-size: 22px;
+    /* Increase the font size */
+    margin-bottom: 10px;
+}
+
+
+
+/* About Me Styles */
+#about {
+    background-color: #fff;
+    /* White background color */
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+#about .container {
+    text-align: center;
+}
+
+#about .section-title {
+    font-size: 32px;
+    /* Increase the font size */
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0074e4;
+    /* Blue color */
+}
+
+.about-content {
+    margin-top: 30px;
+}
+
+.about-content p {
+    font-size: 24px;
+    /* Increase the font size */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    font-size: 28px;
+    /* Increase the font size */
+    margin-top: 20px;
+    color: #0074e4;
+    /* Blue color */
+}
+
+.about-content ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.about-content li {
+    font-size: 22px;
+    /* Increase the font size */
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+
+/* Portfolio Item Styles */
+
+.portfolio-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    flex: 0 0 calc(33.333% - 40px);
+    /* 3 items per row */
+}
+
+.portfolio-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.portfolio-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #8fc6f9;
+}
+
+.portfolio-item p {
+    font-size: 20px;
+    /* Increase the font size */
+    margin-top: 10px;
+    color: #000000;
+    /* Black text color */
+}
+
+/* Additional Section Styles */
+section#about {
+    background-color: #8fc6f9;
+    /* Dark background */
+    text-align: left;
+    padding: 40px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section#internship,
+section#education,
+section#portfolio,
+section#certification,
+section#contact,
+section#course,
+section#resume {
+    background-color: #8fc6f9;
+    /* Dark gray background */
+    /* text-align: left; */
+    padding: 40px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    color: #000000;
+    /* Black text color */
+}
+
+/* Center the section title */
+.section-title {
+    text-align: center;
+}
+
+/* Internship Styles */
+.internship-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.internship-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    flex: 0 0 calc(50% - 40px);
+    /* 2 items per row */
+}
+
+.internship-item h3 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.internship-item p {
+    font-size: 20px;
+    /* Increase the font size */
+    margin-top: 10px;
+    color: #000000;
+    /* Black text color */
+}
+
+.internship-item ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #000000;
+    /* Black text color */
+}
+
+.internship-item {
+    background-color: 8fc6f9;
+}
+
+/* Education Styles */
+.education-row {
+    display: flex;
+    justify-content: space-between;
+    /* Adjust alignment as needed */
+}
+
+.education-item {
+    background-color: #f5f5f5;
+    /* Background color */
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    /* 3 items per row with gap */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    font-size: 20px;
+    /* Increase the font size */
+}
+
+/* Add margin to create gap between boxes */
+.education-item+.education-item {
+    margin-left: 20px;
+    /* Adjust the gap size as needed */
+}
+
+.education-item h3 {
+    font-size: 24px;
+    /* Increase the font size */
+    margin-top: 10px;
+    color: #333;
+}
+
+.education-item ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.education-item li {
+    font-size: 20px;
+    /* Increase the font size */
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Certification Styles */
+#certification {
+    background-color: #333;
+    /* Dark background color */
+    color: #fff;
+    /* Text color */
+    padding: 40px 0;
+}
+
+#certification .container {
+    text-align: center;
+}
+
+#certification .section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#certification ul {
+    list-style: none;
+    padding: 0;
+}
+
+#certification li {
+    margin: 15px 0;
+}
+
+#certification a {
+    text-decoration: none;
+    color: #9f14a7;
+    /* Link color */
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    transition: color 0.3s ease-in-out;
+}
+
+#certification a:hover {
+    color: #ffa500;
+    /* Hover color (e.g., orange) */
+}
+
+
+/* Contact Styles */
+#contact {
+    background-color: #333;
+    /* Blue background color */
+    color: #fff;
+    /* Text color */
+    padding: 40px 0;
+}
+
+#contact .container {
+    text-align: center;
+}
+
+#contact .section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    text-decoration: none;
+    color: #fff;
+    /* Icon color */
+    font-size: 20px;
+    margin: 0 20px;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-icons a:hover {
+    color: #ffa500;
+    /* Hover color (e.g., orange) */
+}
+
+/* ... Remaining styles ... */
+
+
+/* Resume Styles */
+#resume {
+    background-color: #333;
+    /* Dark background color */
+    color: #fff;
+    /* Text color - white */
+    padding: 40px 0;
+}
+
+#resume .container {
+    text-align: center;
+}
+
+#resume .section-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.resume-download {
+    margin-top: 20px;
+}
+
+.resume-download a {
+    display: inline-block;
+    background-color: #0074e4;
+    /* Blue background color */
+    color: #fff;
+    /* Text color - white */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.resume-download a:hover {
+    background-color: #ffa500;
+    /* Hover color (e.g., orange) */
+}
+
+/* Resume Content Styles (Example) */
+.resume-content {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.resume-content h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0074e4;
+    /* Blue color */
+}
+
+.resume-content p {
+    font-size: 20px;
+    /* Increase the font size */
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* ... Remaining styles ... */
+
+/* Footer Styles */
+footer {
+    background-color: #1f1f1f;
+    /* Dark background */
+    color: #ccc;
+    /* Light gray text */
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add animations and transitions */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+section {
+    animation: fadeInUp 1s ease;
+    transition: background-color 0.5s ease-in-out;
+    margin-bottom: 0;
+    /* Remove default margin between sections */
+        
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
